@@ -202,10 +202,11 @@ body{
 .price{
     width: 120px;
     height: 120px;
-    border-radius: 50%;
+    border-radius: 30%;
     border: 2px solid #da4357;
     margin: 5% auto 0 auto;
     text-align: center;
+    padding-top: 8px;
 }
 .deals{
     margin-top: 10%;
@@ -217,7 +218,7 @@ body{
     text-transform: uppercase;
 }
 .price h3{
-    font-size: 38px;
+    font-size: 25px;
     color: #fff;
     margin-top: 30px;
 }
@@ -291,6 +292,7 @@ body{
     color: #efefef;
     margin-bottom: 10px;
     text-align: center;
+    padding: 10px 10px;
 }
 .footer .grupo-1 .rrss{
     display: flex;
