@@ -258,7 +258,7 @@ body{
 /*footer*/
 .footer{
     width: 100%;
-    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
+    background: linear-gradient(45deg, rgb(52, 9, 93), #c1375d);
 
 }
 .footer .grupo-1{
