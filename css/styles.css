@@ -19,11 +19,11 @@ body{
 }
 .home-logo{
     width: 200px;
+    margin-top: 20px;
 }
 .main-menu{
     list-style: none;
     margin-top: 0;
- 
     padding-left: 0;
     display: flex;
     flex-direction: column;
@@ -57,12 +57,20 @@ body{
     align-items: center;
     
 }
+.hero-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
+    padding-bottom: 30px;
+    
+}
 .hero-title{
     font-size: 40px;
     text-align: center;
     padding: 10px;
     color: white;
-    background-color: #c1375d;
+    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
     width: 100%;
     
 
@@ -72,7 +80,7 @@ body{
     text-align: center;
     padding: 10px;
     color: white;
-    background-color: rgb(52, 9, 93);
+    
     margin: 0;
     width: 100%;
     padding-top: 20px;
@@ -92,14 +100,7 @@ body{
     transform: translateY(-10px);
     box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
 }
-.hero-top{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(52, 9, 93);
-    padding-bottom: 30px;
-    
-}
+
 .hero-img{
     width: 100%;
     align-items: center;
@@ -151,7 +152,7 @@ body{
 
 .como-funciona{
     width: 100%;
-    background-color: rgb(52, 9, 93);
+    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
     height: 130px;
     align-content: center;
    
@@ -166,7 +167,7 @@ body{
 }
 .planes-home{
     width: 100%;
-    background-color: rgb(52, 9, 93);
+    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
     height: 100px;
     align-content: center;
     
@@ -256,7 +257,7 @@ body{
 /*footer*/
 .footer{
     width: 100%;
-    background-color: #c1375d;
+    background: linear-gradient(to right, rgb(52, 9, 93), #c1375d);
 
 }
 .footer .grupo-1{
